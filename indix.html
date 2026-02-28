@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Archana | Data Analyst</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/6c5c1b6c5f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<header>
+    <nav>
+        <h2 class="logo">Archana</h2>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- HOME -->
+<section id="home" class="home">
+    <div class="home-content">
+        <div class="text-content">
+            <h1>Hello, I'm <span>Archana</span></h1>
+            <h3>Senior Data Analyst</h3>
+            <p>
+                Transforming complex datasets into strategic insights that drive measurable business growth.
+            </p>
+
+            <div class="buttons">
+                <button onclick="scrollToSection('contact')">Hire Me</button>
+                <a href="#" class="resume-btn">Download Resume</a>
+            </div>
+
+            <!-- ✅ SOCIAL ICONS ADDED HERE -->
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+
+        </div>
+
+        <div class="image-content">
+            <img src="profile.jpg" alt="Archana Profile">
+        </div>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+    <h2>About Me</h2>
+    <p>
+        I am a results-driven Data Analyst specializing in business intelligence,
+        predictive analytics, and advanced data visualization.
+    </p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section">
+    <h2>Core Competencies</h2>
+    <div class="skills-grid">
+        <div class="skill-card">Python</div>
+        <div class="skill-card">SQL</div>
+        <div class="skill-card">Power BI</div>
+        <div class="skill-card">Tableau</div>
+        <div class="skill-card">Machine Learning</div>
+        <div class="skill-card">Advanced Excel</div>
+          <div class="skill-card">Data Modeling & ETL</div>
+
+<div class="skill-card">Business Intelligence</div>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section">
+    <h2>Featured Projects</h2>
+
+    <div class="project-card">
+        <h3>Enterprise Sales Dashboard</h3>
+        <p><strong>40% improvement</strong> in reporting efficiency.</p>
+    </div>
+
+    <div class="project-card">
+        <h3>Customer Churn Prediction</h3>
+        <p>Achieved <strong>92% model accuracy</strong>.</p>
+    </div>
+    <div class="project-card">
+         <h3>Financial Risk Analytics System</h3>
+        <p>
+            Built predictive financial risk assessment models to support
+            investment strategy decisions.
+        </p>
+    </div>
+
+
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+    <h2>Contact</h2>
+    <form onsubmit="return submitForm()">
+        <input type="text" placeholder="Full Name" required>
+        <input type="email" placeholder="Email Address" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 Archana | tcs</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
